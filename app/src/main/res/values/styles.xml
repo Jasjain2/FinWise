@@ -1,0 +1,27 @@
+<resources>
+    <style name="CalcButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_rowWeight">1</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:background">#2E2E2E</item>
+    </style>
+
+    <style name="CalcButtonOperator" parent="CalcButton">
+        <item name="android:background">#FF9800</item>
+    </style>
+
+    <style name="CalcButtonRed" parent="CalcButton">
+        <item name="android:background">#F44336</item>
+    </style>
+
+    <style name="CalcButtonGrey" parent="CalcButton">
+        <item name="android:background">#424242</item>
+    </style>
+
+    <style name="CalcButtonEqual" parent="CalcButtonOperator">
+        <item name="android:background">#4CAF50</item>
+    </style>
+</resources>
